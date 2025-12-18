@@ -6,12 +6,16 @@ edinburgh_finds_backend/venv/
 **/__pycache__/
 *.py[cod]
 
-# VS Code workspace settings (only backend)
+# VS Code workspace settings (backend-specific)
 edinburgh_finds_backend/.vscode/
 
-# Logs and temporary Python files
+# Logs and temporary files
 *.log
 *.sqlite3
+
+# === Backend Data / Scripts / Misc ===
+# Temporary script outputs
+edinburgh_finds_backend/data/**/*.tmp
 
 # === Node / Next.js Frontend ===
 # Node dependencies
@@ -22,17 +26,21 @@ edinburgh_finds_web/.next/
 edinburgh_finds_web/out/
 edinburgh_finds_web/dist/
 
-# TypeScript build info file
+# Prisma generated client
+edinburgh_finds_web/prisma/generated/
+
+# Node cache
+edinburgh_finds_web/node_modules/.cache/
+
+# TypeScript build info
 *.tsbuildinfo
 
-# VS Code workspace settings (project‑wide)
+# === Project-wide Editor / OS files ===
 .vscode/
+.DS_Store
+Thumbs.db
 
-# Environment variable files (secrets / config)
+# === Environment variable files (secrets / config) ===
 *.env
 *.env.local
 *.env.*.local
-
-# OS / Editor junk
-.DS_Store
-Thumbs.db

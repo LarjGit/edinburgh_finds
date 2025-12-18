@@ -1,4 +1,4 @@
-// app/listing/[slug]/page.tsx
+// app/listing/[slug]/page.tsx - temp comment to trigger coderabbit review
 import { prisma } from '@/lib/prisma'
 import { notFound } from 'next/navigation'
 import Navigation from '@/app/components/Navigation'

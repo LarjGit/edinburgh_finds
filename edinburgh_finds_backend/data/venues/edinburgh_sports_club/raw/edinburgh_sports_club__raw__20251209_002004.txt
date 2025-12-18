@@ -1,0 +1,173 @@
+Edinburgh Sports Club is a private rackets and sports club in the West End of Edinburgh offering squash, tennis, padel, table tennis, gym and social facilities at 7 Belford Place, Edinburgh, EH4 3DH, Scotland. It operates as a members-focused venue with bar, restaurant, events and coaching across its racket sports.​
+
+GRADE A — High Confidence (Directly Verified)
+Core identity and location
+Name: Edinburgh Sports Club (often abbreviated ESC).​
+
+Type: Private members’ rackets and sports club with social facilities.​
+
+Official address: 7 Belford Place, Edinburgh, EH4 3DH, United Kingdom.​
+
+City/region: Edinburgh, West End area, Scotland, UK.​
+
+Primary website URL: https://www.edinburghsportsclub.co.uk​
+
+Facilities and amenities (on-site)
+Squash: Six squash courts plus a hardball doubles court.​
+
+Tennis: Three floodlit outdoor tennis courts.​
+
+Padel: Three fully covered, floodlit padel courts.​
+
+Table tennis: Dedicated “first class” table-tennis facility.​
+
+Gym: On-site gym available to members.​
+
+Bar and restaurant: Licensed bar, café/lounge and restaurant with weekday lunches.​
+
+Social spaces: Lounge, café-style seating and barbecue area for social events.​
+
+Activities and programmes
+Racket sports play: Member play for squash, tennis and padel, including casual play and internal matches.​
+
+Coaching: Structured coaching programmes for squash, tennis and padel for adults and juniors, with individual and group sessions led by qualified coaches.​
+
+Coaching access: Coaching open to members and non-members; booking managed via ClubSpark registration and booking system.​
+
+Events and calendar: Regular sports and social events listed on the club’s calendar and “What’s on?” pages.​
+
+Contact information
+Reception and management phone: +44 (0)131 539 7071.​
+
+Booking line phone: +44 (0)131 332 0088.​
+
+Postal address for correspondence: Edinburgh Sports Club, 7 Belford Place, Edinburgh, EH4 3DH.​
+
+Opening hours (core facility)
+Stated opening hours (general club access) reported as:
+
+Monday: 09:00–22:00
+
+Tuesday: 09:00–22:00
+
+Wednesday: 09:00–22:00
+
+Thursday: 09:00–22:00
+
+Friday: 09:00–22:00
+
+Saturday: 09:00–22:00
+
+Sunday: 09:00–22:00
+These same times are listed as 09:00–22:00 across all days on a specialist padel/club directory which links directly to the official club site.​
+
+Parking and access
+On-site parking: Venue is described as having ample on-site parking for members and visitors.​
+
+Setting: Club is on an island within the Water of Leith World Heritage area, accessed from the surrounding West End streets.​
+
+Public transport access
+Proximity to West End transport: Located in Edinburgh’s West End within walking distance of Haymarket rail/tram interchange.​
+
+Walking times from nearby hubs: Approximate walk times given as about 14 minutes from West Maitland Street bus stops and about 16 minutes from Haymarket Station.​
+
+Social and community role
+Position in Scottish padel: Recognised as “Home of Scottish Padel” by a padel-specific directory referencing the club.​
+
+Multi-sport community: Hosts coaching, mix-ins, tournaments and social activities for all levels, fostering a strong club community.​
+
+Other authoritative URLs (club ecosystem)
+Coaching info (official subpage): https://www.edinburghsportsclub.co.uk/coaching​
+
+Events/calendar (official subpages): https://www.edinburghsportsclub.co.uk/events and https://www.edinburghsportsclub.co.uk/calendar​
+
+Contact page: https://www.edinburghsportsclub.co.uk/contact​
+
+GRADE B — Medium Confidence (Strongly Supported)
+Latitude and longitude
+Approximate coordinates for “Edinburgh Sports Club, 7 Belford Place, Edinburgh EH4 3DH” derived from mapping/geocoding around that address cluster the location near latitude 55.95386 N and longitude -3.22740 W to five decimal places; this is consistent with mapping for Belford Place close to the Water of Leith.​
+
+Given these cross-referenced map sources, a working high-precision point for geospatial use is:
+
+Latitude: 55.95386
+
+Longitude: -3.22740
+This remains approximate and should be validated against a dedicated geocoding API before critical use.​
+
+Additional facilities and amenities (from specialist directories)
+Equipment shop / pro shop: Rackets, balls and accessories available on-site, with member discount; also listed as “Equipment Shop” by a padel directory.​
+
+Licensed bar and food: Licensed bar and café/restaurant for drinks and meals, with capacity for private hire for parties and special occasions.​
+
+Changing facilities: Changing rooms and associated amenities confirmed by padel directory listing.​
+
+On-site accommodation: A padel directory notes “Accommodation Available”, which may refer to linked or nearby accommodation options rather than rooms owned by the club itself.​
+
+Activities and events
+Tournaments and leagues: Regular padel and squash events, mix-ins and tournaments (including junior events) indicated by padel directory and event listings.​
+
+National events: Venue listed as host location for a Scottish Squash “ESC Junior Gold” event with address and phone matching club details.​
+
+Corporate or social hire: Restaurant and social areas are advertised as available for parties and special occasions.​
+
+Opening hours nuance
+While the padel directory lists 09:00–22:00 daily, practical hours for specific facilities (bar, restaurant, coaching or court access) may differ, especially on weekends or for early-morning bookings.​
+
+Users should check current schedules via the club’s calendar or by phone, especially for public holidays or special events.​
+
+Public transport and access details
+Walking access: Several directory descriptions highlight the club as a short brisk walk (around 5–20 minutes depending on start point) from Princes Street and Edinburgh Castle, indicating strong central accessibility.​
+
+Haymarket hub: Multiple accommodation and transport sources refer to Haymarket rail/bus/tram interchange as the nearest major public transport node, roughly a 15–20 minute walk away.​
+
+Reviews and social proof (aggregated, non-quoted)
+TripAdvisor: Edinburgh Sports Club appears as an attraction in Edinburgh with a very positive aggregate rating (around the top end of a 5-point scale) based on a small number of reviews, praising both staff and facilities.​
+
+Padel/sports directories: Specialist padel and club directories describe the venue in favourable terms, highlighting quality courts, strong community atmosphere and good amenities.​
+
+Membership model and access
+Membership-focused: Described as a premium, members-only venue, especially in the context of padel; some activities (such as coaching) are accessible to non-members.​
+
+Booking systems: Court and coaching bookings are organised via online systems such as ClubSpark and the club’s own booking interfaces.​
+
+GRADE C — Low Confidence (Weakly Supported)
+Social media profiles
+Instagram: The official website repeatedly references “Instagram” in its footer, implying an active Instagram account, but the exact handle is not fully visible in the brief snippets; likely structured as an official club account.​
+
+Facebook: Similarly, there is a “Facebook” link in the site footer pointing to an official Facebook page; the exact URL and page name need direct verification.​
+
+Twitter (now X): The footer also lists “Twitter”, implying an account under the club’s name, but the precise handle cannot be confidently extracted from current snippets.​
+
+Detailed parking information
+Free parking: An event listing for an external organisation hosting at Edinburgh Sports Club notes that parking at the venue is free for attendees.​
+
+Capacity and layout: No authoritative, recent data specifies the number of spaces, EV charging availability, or layout, so assumptions about size or configuration remain unverified.
+
+Fine-grained opening hours (sub-facilities)
+Bar/restaurant hours: It is plausible that food service and bar opening hours differ from the general club opening hours, but explicit times are not clearly documented in the available sources.​
+
+Holiday hours: Any Christmas/New Year or bank-holiday variations are not published clearly in the sources accessed and would need direct confirmation.
+
+Review specifics
+Individual review comments: Some reviews on travel or local directory sites reference staff helpfulness and facility quality, but these are user-generated and may not represent current conditions or policies.​
+
+GRADE X — Not Found / Too Uncertain
+These attributes could not be reliably established from the consulted sources and should be treated as unknown without direct confirmation from the club.
+
+Exact official latitude/longitude published by the club (no explicit coordinates found on official pages).
+
+Precise, confirmed URLs and handles for Instagram, Facebook and Twitter/X (links exist but target details are not clearly exposed).
+
+Detailed breakdown of membership categories, fees, joining process and contract terms.
+
+Exact number of parking spaces and presence/absence of EV charging points.
+
+Detailed accessibility information (step-free access routes, lifts, accessible changing rooms, hearing loops).
+
+Detailed bar/restaurant menu, pricing, and exact serving hours.
+
+Formal child safeguarding and welfare policies (may exist but not clearly surfaced in the brief materials).
+
+Full list of additional amenities such as Wi‑Fi policy, meeting rooms, or business facilities.
+
+Tools, external sources and URLs used included the club’s official website (home, about, coaching, contact, events and calendar pages), multiple sports and padel directories, an events calendar from Scottish Squash, accommodation and area transport descriptions referencing the venue, and general mapping/geocoding and review sites listing Edinburgh Sports Club as an attraction or padel venue.

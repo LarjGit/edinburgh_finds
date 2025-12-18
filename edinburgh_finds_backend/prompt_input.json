@@ -1,0 +1,13 @@
+{
+  "targetEntityDetails": {
+    "name": "David Lloyd Club Edinburgh Shawfair",
+    "type": "Venue",
+    "primaryCategory": "Padel"
+  },
+  "informationSources": [
+    "https://www.davidlloyd.co.uk/clubs/edinburgh-shawfair/"
+  ],
+  "attributesToPopulate": {
+    "email": "string"
+  }
+}

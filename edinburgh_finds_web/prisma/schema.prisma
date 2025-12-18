@@ -1,0 +1,135 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model listings {
+  listing_id           String   @id @db.VarChar
+  entity_name          String   @db.VarChar
+  entity_type          String   @db.VarChar
+  slug                 String   @unique(map: "ix_listings_slug") @db.VarChar
+  summary              String?  @db.VarChar
+  categories           String[] @db.VarChar
+  canonical_categories String[] @db.VarChar
+  other_attributes     Json?    @db.Json
+  street_address       String?  @db.VarChar
+  city                 String?  @db.VarChar
+  postcode             String?  @db.VarChar
+  country              String?  @db.VarChar
+  latitude             Float?
+  longitude            Float?
+  phone                String?  @db.VarChar
+  email                String?  @db.VarChar
+  website_url          String?  @db.VarChar
+  instagram_url        String?  @db.VarChar
+  facebook_url         String?  @db.VarChar
+  twitter_url          String?  @db.VarChar
+  linkedin_url         String?  @db.VarChar
+  opening_hours        Json?    @db.Json
+  source_info          Json?    @db.Json
+  field_confidence     Json?    @db.Json
+  created_at           DateTime @default(now()) @db.Timestamptz(6)
+  updated_at           DateTime @default(now()) @db.Timestamptz(6)
+  external_ids         Json?    @db.Json
+  venues               venues?
+
+  @@index([city], map: "ix_listings_city")
+  @@index([entity_name], map: "ix_listings_entity_name")
+  @@index([entity_type], map: "ix_listings_entity_type")
+  @@index([postcode], map: "ix_listings_postcode")
+}
+
+model venues {
+  listing_id                       String   @id @db.VarChar
+  tennis_summary                   String?  @db.VarChar
+  tennis                           Boolean?
+  tennis_total_courts              Int?
+  tennis_indoor_courts             Int?
+  tennis_outdoor_courts            Int?
+  tennis_covered_courts            Int?
+  tennis_floodlit_courts           Int?
+  padel_summary                    String?  @db.VarChar
+  padel                            Boolean?
+  padel_total_courts               Int?
+  pickleball_summary               String?  @db.VarChar
+  pickleball                       Boolean?
+  pickleball_total_courts          Int?
+  badminton_summary                String?  @db.VarChar
+  badminton                        Boolean?
+  badminton_total_courts           Int?
+  squash_summary                   String?  @db.VarChar
+  squash                           Boolean?
+  squash_total_courts              Int?
+  squash_glass_back_courts         Int?
+  table_tennis_summary             String?  @db.VarChar
+  table_tennis                     Boolean?
+  table_tennis_total_tables        Int?
+  football_summary                 String?  @db.VarChar
+  football_5_a_side                Boolean?
+  football_5_a_side_total_pitches  Int?
+  football_7_a_side                Boolean?
+  football_7_a_side_total_pitches  Int?
+  football_11_a_side               Boolean?
+  football_11_a_side_total_pitches Int?
+  swimming_summary                 String?  @db.VarChar
+  indoor_pool                      Boolean?
+  outdoor_pool                     Boolean?
+  indoor_pool_length_m             Int?
+  outdoor_pool_length_m            Int?
+  family_swim                      Boolean?
+  adult_only_swim                  Boolean?
+  swimming_lessons                 Boolean?
+  gym_summary                      String?  @db.VarChar
+  gym_available                    Boolean?
+  gym_size                         Int?
+  classes_summary                  String?  @db.VarChar
+  classes_per_week                 Int?
+  hiit_classes                     Boolean?
+  yoga_classes                     Boolean?
+  pilates_classes                  Boolean?
+  strength_classes                 Boolean?
+  cycling_studio                   Boolean?
+  functional_training_zone         Boolean?
+  spa_summary                      String?  @db.VarChar
+  spa_available                    Boolean?
+  sauna                            Boolean?
+  steam_room                       Boolean?
+  hydro_pool                       Boolean?
+  hot_tub                          Boolean?
+  outdoor_spa                      Boolean?
+  ice_cold_plunge                  Boolean?
+  relaxation_area                  Boolean?
+  amenities_summary                String?  @db.VarChar
+  restaurant                       Boolean?
+  bar                              Boolean?
+  cafe                             Boolean?
+  childrens_menu                   Boolean?
+  wifi                             Boolean?
+  family_summary                   String?  @db.VarChar
+  creche_available                 Boolean?
+  creche_age_min                   Int?
+  creche_age_max                   Int?
+  kids_swimming_lessons            Boolean?
+  kids_tennis_lessons              Boolean?
+  holiday_club                     Boolean?
+  play_area                        Boolean?
+  parking_and_transport_summary    String?  @db.VarChar
+  parking_spaces                   Int?
+  disabled_parking                 Boolean?
+  parent_child_parking             Boolean?
+  ev_charging_available            Boolean?
+  ev_charging_connectors           Int?
+  public_transport_nearby          Boolean?
+  nearest_railway_station          String?  @db.VarChar
+  reviews_summary                  String?  @db.VarChar
+  average_rating                   Float?
+  review_count                     Int?
+  google_review_count              Int?
+  facebook_likes                   Int?
+  field_confidence                 Json?    @db.Json
+  listings                         listings @relation(fields: [listing_id], references: [listing_id], onDelete: Cascade, onUpdate: NoAction)
+}

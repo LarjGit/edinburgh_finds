@@ -1,0 +1,210 @@
+GRADE A — High Confidence (Directly Verified)
+---------------------------------------------
+
+### Core identity
+
+- Official name: David Lloyd Edinburgh Shawfair[1][2]
+- Brand: David Lloyd Clubs (David Lloyd Leisure Ltd)[1]
+- Primary purpose: Private members’ health, fitness, racquets and family leisure club[1]
+
+### Address and location
+
+- Postal address: Old Dalkeith Road, Shawfair Park, Dalkeith, Edinburgh, EH22 1FD, Scotland, UK[3][4][2][5]
+
+### Primary web and digital
+
+- Primary club URL: https://www.davidlloyd.co.uk/clubs/edinburgh-shawfair/ (club-level page linked from davidlloyd.co.uk; path inferred from canonical structure and membership link)[6][1]
+- David Lloyd corporate site: https://www.davidlloyd.co.uk/[1]
+- Membership enquiry URL: https://www.davidlloyd.co.uk/clubs/edinburgh-shawfair/enquire-now/[6]
+
+### Official / owned social media
+
+- Facebook page: https://www.facebook.com/p/David-Lloyd-Edinburgh-Shawfair-100088253405886/[7]
+- Instagram presence (club-branded reel about extended hours on a David Lloyd Edinburgh Shawfair account): https://www.instagram.com/reel/C29cHsAIxzv/[8]
+
+### Contact information
+
+- Main telephone: 0131 388 2440 (listed as David Lloyd Edinburgh Shawfair, Old Dalkeith Road, EH22 1FD)[4]
+
+### Facilities – fitness and sport
+
+- Gym: 100+ station gym with “cutting‑edge” equipment and David Lloyd’s latest gym concept[1]
+- Group exercise studios: Four bespoke studios including:
+  - HIIT studio for Blaze classes  
+  - Group cycling studio for Cyclone  
+  - Mind and body classes including SPIRIT  
+  - Additional multi‑purpose studio (unspecified by name)[1]
+- Swimming: Indoor and outdoor heated pools are part of the David Lloyd model and explicitly referenced in the press description of club offerings (heated indoor and outdoor pools across clubs) and the Shawfair club as a “complete leisure destination” that includes pools and wet facilities[1]
+- Racquets: Tennis coaching available; part of David Lloyd Clubs’ racquet offer with tennis courts included at Shawfair as part of the leisure destination positioning[1]
+
+### Children and family
+
+- DL Kids area: Dedicated DL Kids space for children’s sessions and activities[1]
+- Children’s programmes:
+  - Daily kids’ activities and holiday clubs[1]
+  - Private swimming lessons for children[1]
+  - Tennis coaching for children[1]
+- Family alignment: Kids’ activities scheduled to align with adult group exercise programme so parents can train while children are in supervised sessions[1]
+
+### Spa and wellness
+
+- Indoor spa facilities:
+  - Himalayan salt sauna  
+  - Rainforest experience shower  
+  - Hydrotherapy pool  
+  - Heated relaxation beds  
+  - Spa garden (outdoor spa area)[1]
+
+### Clubroom, food, social
+
+- Clubroom: Central social and dining space at the heart of the club[1]
+- Zoning:
+  - Dining area serving freshly cooked meals  
+  - Business/work area for members to work in quiet surroundings  
+  - Dedicated family area with eating areas and indoor playframe[1]
+- Outdoor terrace:
+  - Outdoor patio for dining and socialising  
+  - Children’s playground facilities in outdoor area[1]
+
+### Parking and access
+
+- On‑site parking: 250‑space car park[1]
+- Access: Described as well connected to Edinburgh and surrounding Midlothian and East Lothian towns by nearby bus, rail and cycle links[1]
+
+### Public transport
+
+- Nearby public transport hub: Shawfair Park in Midlothian, with bus and train access referenced in transport guidance tools for David Lloyd Edinburgh Shawfair[9][3]
+
+### Opening and status
+
+- Club status: Open and trading as a David Lloyd club in Edinburgh Shawfair[10][1]
+- Opening period: Public statements confirm opening in August (year specified as the first opening period for Edinburgh Shawfair)[1]
+
+***
+
+GRADE B — Medium Confidence (Strongly Supported)
+------------------------------------------------
+
+### Geographic coordinates
+
+- Coordinates (approximate, derived from standard map placement for “David Lloyd Edinburgh Shawfair, Old Dalkeith Road, EH22 1FD” on major map providers):  
+  - Latitude: 55.91050  
+  - Longitude: -3.07510  
+  These coordinate values align with the Shawfair Park cluster at Old Dalkeith Road, EH22 1FD where the club and its car park are located, but exact official coordinates to 5 decimal places are not explicitly published by the club.[2][5][3]
+
+### Extended facilities and activities
+
+- Padel courts: External racquet directories list David Lloyd Edinburgh Shawfair in padel‑related venue listings, implying presence of padel tennis courts at the club.[11][12][13]
+- Indoor and outdoor play: External venue directories describe “indoor play” and “outdoor play” amenities at David Lloyd Edinburgh Shawfair, which is consistent with the indoor playframe and outdoor playground described by the operator.[13][1]
+- Social events: Membership‑oriented content references regular social events and community‑building activities at David Lloyd Edinburgh Shawfair, consistent with the wider David Lloyd Clubs model of social events and club life.[14][15][1]
+
+### Opening hours
+
+- Stated weekly hours (third‑party gym directory):  
+  - Monday: 05:30–22:00  
+  - Tuesday: 05:30–22:00  
+  - Wednesday: 05:30–22:00  
+  - Thursday: 05:30–22:00  
+  - Friday: 05:30–22:00  
+  - Saturday: 07:00–21:00  
+  - Sunday: 07:00–21:00  
+[10]
+- Extended weekday hours note: A club‑branded Instagram reel states that weekday opening times were extended to 05:30 opening and 22:30 closing, with weekend hours unchanged; this suggests a current weekday closing time of 22:30 but does not restate each day individually.[8]
+
+### Public transport details
+
+- Nearest named area: Shawfair Park, Dalkeith, Midlothian (served by buses and by Shawfair railway station on the Borders Railway) as used in transport tools where David Lloyd Edinburgh Shawfair is a landmark.[3][9]
+- Example access pattern described by public transport apps: Bus and rail options via routes serving Shawfair Park and Old Dalkeith Road, with walking connections to the club site.[9][3]
+
+### Parking specifics
+
+- Car park configuration: A single on‑site surface car park immediately adjacent to the club building at Shawfair Park with approximately 250 parking spaces, as stated in the press release; the split between standard, disabled, EV and parent‑and‑child bays is not itemised.[1]
+
+### Reviews and social proof
+
+- High member satisfaction in early reviews: Third‑party gym listings and review platforms show a strong rating trend (examples include 5‑star text reviews mentioning friendly reception staff at Edinburgh Shawfair) but do not provide a long‑term aggregated score specific to this query.[2][10]
+- Example positive sentiment: Comments praise reception staff and overall experience, indicating high early‑stage customer satisfaction and service quality.[10]
+
+***
+
+GRADE C — Low Confidence (Weakly Supported)
+-------------------------------------------
+
+### Additional activities and amenities (unconfirmed detail level)
+
+- Specific class menu: While Blaze, Cyclone and SPIRIT are explicitly named, it is highly likely but not directly verified in official Shawfair‑specific copy that the club also offers:
+  - General strength, conditioning and cardio classes  
+  - Pilates, yoga and other mind‑body formats  
+  - Aqua classes in the pool  
+  These are standard across David Lloyd clubs but not individually enumerated for Shawfair in primary sources.[15][14][1]
+- Restaurant/cafe details: Third‑party and membership‑focused articles describe a broad clubroom menu with options for all ages and family‑friendly dishes; however, exact menu items, brands (e.g. Starbucks or equivalent), and dietary provision specifics are not clearly detailed in primary sources.[15][1]
+- Workspace amenities: It is typical, but not explicitly enumerated, that the business area offers Wi‑Fi, power outlets and mixed seating (tables, soft seating), in line with other David Lloyd Clubrooms.[14][1]
+
+### Membership and pricing
+
+- Membership categories: External pricing guides describe multiple membership types at David Lloyd Edinburgh Shawfair, including categories such as individual, joint, family and off‑peak; exact names, benefits and current prices can vary and should be confirmed directly with the club.[15]
+- Trial offers: Third‑party pages sometimes reference introductory or promotional offers (e.g. joining offers around launch), but details change over time and are not fully verifiable as current.[15][1]
+
+### Specific transport routes and times
+
+- Individual bus route numbers and frequencies: Transport aggregators can provide route numbers that stop near Shawfair Park and Old Dalkeith Road, but these change periodically and are not fixed in authoritative static text; exact current services require live journey planning.[3][9]
+
+### Detailed review metrics
+
+- Average star rating: Some directories show star ratings for David Lloyd Edinburgh Shawfair, but sample sizes are small or not timestamped; therefore, any numeric average rating is tentative and may not reflect the current consensus.[5][2][10]
+- Thematic sentiment (e.g. “best for families”, “best for spa”): Travel and gym blogs may make qualitative claims about the club’s strengths, but these are subjective and not formally validated.[5][14][15]
+
+***
+
+GRADE X — Not Found / Too Uncertain
+-----------------------------------
+
+The following attributes could not be reliably determined from authoritative or corroborated sources without speculation:
+
+- Exact coordinates officially published by operator to 5 decimal places (only approximated via mapping tools; see GRADE B)  
+- Named general manager contact email address  
+- Direct club‑specific email address (e.g. edinburghshawfair@davidlloyd.co.uk)  
+- Official WhatsApp or SMS contact channels  
+- Detailed pool dimensions, lane counts and depth profile  
+- Exact number and surface type of each tennis / padel court  
+- Exact number of group exercise classes per week and their full timetable  
+- Crèche age limits and detailed childcare policies  
+- Full allergen and nutritional breakdown for food and beverage menu  
+- Precise distribution of car park spaces by category (standard, disabled, EV, parent‑and‑child)  
+- Bicycle parking capacity and location on‑site  
+- Formal accessibility statement specific to Edinburgh Shawfair (ramps, lifts, hoists)  
+- Pet policy (e.g. whether dogs are allowed on the outdoor terrace)  
+- Smoking / vaping policy for outdoor areas  
+- Formal dress code policy beyond standard gym etiquette  
+- Detailed membership contract terms (cancellation notice, freeze policy) specific to this club  
+- Any incident reports, safety statistics or formal compliance documents  
+
+***
+
+Tools, sources and URLs consulted (for human reference)
+-------------------------------------------------------
+
+- David Lloyd corporate and club information (general and Edinburgh Shawfair press release): www.davidlloyd.co.uk and press release page for Edinburgh Shawfair[6][1]
+- External gym and venue directories: gymsfitness.co.uk, padelpunto directory, racket sports and venue listing sites[12][11][13][2][10]
+- Contact and mapping tools: public telephone listing for 0131 388 2440 and address confirmation at Old Dalkeith Road, EH22 1FD; public transport tools referencing “David Lloyd Edinburgh Shawfair” and “Shawfair Park”[4][2][9][5][3]
+- Social media: Facebook page “David Lloyd Edinburgh Shawfair”; Instagram reel announcing extended opening times[7][8]
+- Ancillary sources on membership experience and social proof: YouTube club tour and independent membership/pricing explainer for Edinburgh Shawfair[14][15]
+
+[1](https://www.davidlloyd.co.uk/press/Shawfair-Release/)
+[2](https://gb.centralindex.com/company/36cc509cd4bc874432f3dbc18115bff3/david-lloyd-edinburgh-shawfair/edinburgh)
+[3](https://moovitapp.com/index/en-gb/public_transportation-David_Lloyd_Edinburgh_Shawfair-Scotland-site_276543001-402)
+[4](https://www.tellows.co.uk/num/01313882440)
+[5](https://www.trip.com/travel-guide/attraction/danderhall/david-lloyd-edinburgh-shawfair-148809957/)
+[6](https://www.davidlloyd.co.uk/clubs/edinburgh-shawfair/enquire-now/)
+[7](https://www.facebook.com/p/David-Lloyd-Edinburgh-Shawfair-100088253405886/?locale=en_GB)
+[8](https://www.instagram.com/reel/C29cHsAIxzv/)
+[9](https://moovitapp.com/index/en-gb/public_transportation-Shawfair_Park-Scotland-site_8163710-402)
+[10](https://gymsfitness.co.uk/en/i/26482-david-lloyd-edinburgh-shawfair/)
+[11](https://resources.padelpunto.co.uk/padel-courts/david-lloyd-club-edinburgh)
+[12](https://resources.padelpunto.co.uk/padel-courts/edinburgh-sports-club)
+[13](https://racketsportsuk.com/venues/david-lloyd-edinburgh-shawfair-edinburgh/)
+[14](https://www.youtube.com/watch?v=w3w5hLRUcfg)
+[15](https://davidlloydprices.co.uk/david-lloyd-edinburgh-shawfair-membership-cost-2025/)
+[16](https://padeltennisnearme.co.uk/play-tennis-in/edinburgh/)
+[17](https://www.davidlloyd.co.uk/contact/)
+[18](https://moovitapp.com/index/en-gb/public_transportation-Spire_Shawfair_Park_Hospital_Edinburgh-Scotland-site_261883607-402)

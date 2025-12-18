@@ -1,0 +1,132 @@
+Comprehensive Data Report: David Lloyd Club Edinburgh Shawfair
+GRADE A — High Confidence (Directly Verified)
+Data in this section is sourced directly from the official David Lloyd Clubs website, official press releases, and verified Google Maps data. It is considered accurate and up-to-date.
+Primary Location & Contact
+Attribute
+Value
+Venue Name
+David Lloyd Edinburgh Shawfair Club [1]
+Address
+Old Dalkeith Road, Danderhall, Dalkeith, EH22 1FD [1][2]
+Primary URL
+https://www.davidlloyd.co.uk/clubs/edinburgh-shawfair/ [1]
+Latitude
+55.90664 [2]
+Longitude
+-3.09738 [2]
+Plus Code
+WW43+M2 Edinburgh, United Kingdom [2]
+Sales Email
+Sales.Shawfair@davidlloyd.co.uk [1]
+Member Email
+Shawfair@davidlloyd.co.uk [1]
+Core Facilities & Amenities
+The club offers a comprehensive range of facilities, as detailed in official publications [1][3].
+Category
+Details
+Gym
+A 100+ station gym featuring a wide array of cardio, free weights, cable machines, and functional training equipment. It includes a dedicated stretching zone and the "Intuitive Strength Circuit" for personalized workouts [1][3].
+Swimming Pools
+A 20-meter heated indoor pool and a 25-meter heated outdoor pool. The club provides aqua aerobics, family swim times, and adult-only sessions [1][3].
+Spa Retreat
+An extensive indoor and outdoor spa area, the "Spa Retreat" and "Spa Garden," includes Himalayan salt saunas, aromatherapy steam rooms, a hydrotherapy pool, heated beds, an ice cave, and a plunge pool [1][3].
+Racquet Sports
+The venue is a significant racquets center, featuring 12 indoor and 7 outdoor tennis courts (including a tennis dome for year-round play ), 3 outdoor Padel courts, and facilities for badminton and pickleball [1].
+Group Fitness
+Four bespoke studios offer a variety of classes, including high-intensity BLAZE and Battlebox sessions, Cyclone (group cycling), and mind-body classes like SPIRIT, Yoga, and Pilates [1][3].
+Family & Kids
+Dedicated "DL Kids" area with activities, holiday clubs, and coaching for swimming and tennis. A crèche is also available. The Clubroom includes a dedicated family area with an indoor playframe [1][3].
+Social & Work
+A multi-zone Clubroom serves restaurant-quality meals and includes a business lounge for remote work. An outdoor patio with a playground is available for dining and socializing [1][3].
+Operational Information
+Attribute
+Value
+Opening Date
+August 2023 [3]
+Parking
+FREE on-site parking with a 250-space carpark [1][3].
+Bike Parking
+Secure bike parking is available [1].
+Public Transport
+The club is officially stated to be close to public transport links [1][3].
+GRADE B — Medium Confidence (Strongly Supported)
+This section contains information from official social media, reputable third-party aggregators, and news reports quoting official personnel. It is likely accurate but not from a primary, static source.
+Detailed Contact & Social Media
+Attribute
+Value
+Phone Number
++44 131 388 2440 [4][5]
+Facebook Page
+https://www.facebook.com/p/David-Lloyd-Edinburgh-Shawfair-100088253405886/ [4]
+Instagram Handle
+@davidlloydedinburghshawfair (Note: A search also revealed @davidlloydshawfair, indicating potential inconsistency ) [6]
+Category
+Gym/Physical Fitness Center [4]
+Opening Hours
+Opening hours were found on several secondary sources and appear consistent.
+Days
+Hours
+Monday - Friday
+05:30 - 22:30 [7]
+Saturday - Sunday
+07:00 - 21:00 [7]
+Public Transport Details
+Information from transport aggregators provides specific routes serving the venue.
+Transport Mode
+Details
+Bus Routes
+33, X33, 46, 48, 5, 51, 6, X95, 111 [8]
+Nearest Bus Stop
+Shawfair Hospital, Danderhall (4-minute walk) [8]
+Train Line
+ScotRail [8]
+Nearest Train Station
+Shawfair Station is nearby, though Musselburgh Station is listed as a 49-minute walk [8].
+GRADE C — Low Confidence (Weakly Supported)
+This information is derived from user-generated content such as reviews and forum discussions. It reflects public perception and personal experience, which can be subjective, outdated, or unverified.
+Reviews & Public Perception
+Platform
+Summary of Feedback
+Google Maps
+4.7-star rating from 525 reviews. Positive comments frequently praise specific staff members for being welcoming and knowledgeable. Negative feedback is less common but present [2].
+Facebook
+50% recommendation rate from 8 reviews. User comments are mixed [4].
+Trustpilot
+4.4-star rating (Excellent) across 36,817 reviews for the entire David Lloyd Clubs chain, not specific to Shawfair. This indicates a generally positive brand reputation [9].
+News/Forums
+An article from The Edinburgh Reporter (Feb 2024) highlighted significant member complaints regarding overcrowding, parking shortages, overpriced food, and queues for the spa. In an unscientific poll mentioned in the article, only 56% of respondents said they would renew their membership. Management acknowledged a January peak and stated a waiting list was in place [10]. Reddit discussions echo sentiments about high costs [11].
+Membership Information
+Attribute
+Value
+Membership Cost
+Stated as "£150+ per person per month" in a news article, and other forum posts mention fees over £100. This is unverified and subject to change [10][11].
+GRADE X — Not Found / Too Uncertain
+These attributes were part of the research scope but could not be reliably determined.
+Attribute
+Status
+Detailed Parking Info
+While a 250-space lot is confirmed, specifics on overflow, or real-time availability are unavailable.
+Detailed Public Transport Schedules
+Specific timetables for bus/train routes require real-time lookup and are not static data.
+Official Amenities List (non-primary)
+While extensive, the list may not be exhaustive (e.g., specific locker room features, towel service details).
+Official Social Media (Other)
+No definitive, active profiles were found for Twitter (X), LinkedIn (beyond a corporate page), or TikTok.
+Sources & Tools Used
+Primary Sources:
+David Lloyd Clubs Official Website: https://www.davidlloyd.co.uk/clubs/edinburgh-shawfair/
+Google Maps: https://www.google.com/maps/place/David+Lloyd+Edinburgh+Shawfair/
+Official Press Release: https://www.davidlloyd.co.uk/press/Shawfair-Release/
+Secondary & Tertiary Sources:
+4.  Facebook: https://www.facebook.com/p/David-Lloyd-Edinburgh-Shawfair-100088253405886/
+5.  Playskan: https://www.playskan.com/clubs/edinburgh/david-lloyd-edinburgh-shawfair
+6.  Instagram: https://www.instagram.com/davidlloydedinburghshawfair/
+7.  davidlloydmembershipprice.co.uk: (Note: Unofficial pricing site )
+8.  Moovit: https://moovitapp.com/...
+9.  Trustpilot: https://www.trustpilot.com/review/davidlloyd.co.uk
+10. The Edinburgh Reporter: https://theedinburghreporter.co.uk/2024/02/shawfair-shambles.../
+11. Reddit: https://www.reddit.com/r/Edinburgh/...
+Tools Used:
+Manus AI Agent
+Web Search (Info, News )
+Browser (Navigation, Data Extraction)

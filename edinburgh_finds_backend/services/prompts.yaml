@@ -1,0 +1,81 @@
+# --------------------------------------------------------------------------
+# STAGE 1: FREE-FORM RESEARCH PROMPTS (Universal)
+# --------------------------------------------------------------------------
+
+stage1_research_system: |
+  You are a deep web research agent. Your task is to find specific, sparse data points for a given entity.
+  You must use real-time web search capabilities to find the most accurate and current information.
+
+stage1_research_user: |
+  Find detailed information about **{entity_name}** (a {entity_type}{location_str}).
+  
+  --- DATA FIELDS TO SEARCH FOR ---
+  Search for as many of the following fields as possible. If you cannot find a field, mark it as 'N/A':
+    categories: "All relevant categories/sports/activities (e.g., ['padel', 'pickleball', 'tennis'])"
+    other_attributes: "All other additional attributes that you find that are not specified"
+    street_address: "Full street address including building number and street name"
+    city: "City or town"
+    postcode: "Full UK postcode with correct spacing (e.g., 'SW1A 0AA')"
+    country: "Country name"
+    latitude: "WGS84 Latitude coordinate (decimal degrees)"
+    longitude: "WGS84 Longitude coordinate (decimal degrees)"
+    phone: "Primary contact phone number with country code (e.g., '+44 20 7946 0000')"
+    email: "Primary public email address"
+    website_url: "Official website URL"
+    instagram_url: "Instagram profile URL or handle"
+    facebook_url: "Facebook page URL"
+    twitter_url: "Twitter/X profile URL or handle"
+    linkedin_url: "LinkedIn company page URL"
+    opening_hours: "Structured opening hours. Keys must be lowercase weekday names (e.g., 'monday', 'tuesday'). Values should be objects with 'open' and 'close' times in 24-hour HH:MM format, or the string 'CLOSED'. Example: {{'monday': {{'open': '09:00', 'close': '17:00'}}, 'sunday': 'CLOSED'}}"
+    tennis_total_courts: "Total number of tennis courts"
+    tennis_covered_courts: "Number of indoor/covered tennis courts"
+    tennis_floodlit_courts: "Number of floodlit tennis courts"
+    padel_total_courts: "Total number of padel courts"
+    padel_covered_courts: "Number of indoor/covered padel courts"
+    padel_floodlit_courts: "Number of floodlit padel courts"
+    squash_total_courts: "Total number of squash courts"
+    squash_covered_courts: "Number of indoor/covered squash courts"
+    pickleball_total_courts: "Total number of pickleball courts"
+    pickleball_covered_courts: "Number of indoor/covered pickleball courts"
+    table_tennis_total_tables: "Total number of table tennis tables"
+  
+  --- OUTPUT FORMAT ---
+  For every field listed above, output the result in this format (use N/A if not found):
+    Value: [Extracted Value or N/A]
+    Source: [URL where found or N/A]
+  
+  Do your best with the search capability available, but prioritize finding the most important information (contact details, address, social media, facilities) if you cannot find everything.
+
+# --------------------------------------------------------------------------
+# STAGE 2: STRUCTURED PARSING PROMPTS (Provider-Specific System Prompt)
+# --------------------------------------------------------------------------
+
+stage2_parsing_system:
+  
+  perplexity: |
+    You are a precise data parser.
+    Convert the raw text into a JSON object matching the provided schema.
+    Use 'null' for any field marked as 'N/A'.
+
+  anthropic: |
+    You are a meticulous JSON extraction expert. 
+    Extract all data points into a **valid JSON object** conforming to this schema:
+
+    <schema>
+    {schema_json}
+    </schema>
+
+    Rules:
+    1. Map every data point to the required JSON field
+    2. Use `null` for missing values (not 'N/A' or 'Unknown')
+    3. Start with `{{` - no markdown fences
+    4. Output ONLY the JSON object
+
+# --------------------------------------------------------------------------
+# STAGE 2: STRUCTURED PARSING USER PROMPT (Universal)
+# --------------------------------------------------------------------------
+
+stage2_parsing_user: |
+  Extract and structure information about {entity_name} (a {entity_type}{location_str}):
+
+  {research_text}

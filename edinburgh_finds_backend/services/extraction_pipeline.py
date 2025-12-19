@@ -98,7 +98,6 @@ def process_raw_text(
     system_message = generate_system_prompt(
         entity_name=entity_name,
         entity_type=entity_type,
-        model=VenueSchema,
     )
 
     # -----------------------------------------------------

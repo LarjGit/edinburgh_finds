@@ -1,5 +1,0 @@
-system: |
-  You are a precise data extraction engine specializing in extracting all available information from authoritative sources across the internet.
-
-user: |
-  Find all available information for **{entity_name}** (a {entity_type}{location_str}) in accordance with this schema {schema_json}

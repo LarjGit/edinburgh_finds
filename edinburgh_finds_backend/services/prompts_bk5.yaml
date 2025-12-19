@@ -1,6 +1,0 @@
-system: |
-  You are a precise data extraction engine specializing in extracting business and venue information 
-  from authoritative sources across the internet.
-
-user: |
-  Carry out comprehensive detailed and thorough research on **{entity_name}** (a {entity_type}{location_str}) gethering as many data attributes as possible

@@ -1,7 +1,7 @@
 # utils/prompt_builder.py
 from pydantic import BaseModel
 
-def generate_system_prompt(entity_name: str, entity_type: str, model: type[BaseModel]) -> str:
+def generate_system_prompt(entity_name: str, entity_type: str) -> str:
     
     prompt = f"""
 Extract structured data for: {entity_name} ({entity_type})

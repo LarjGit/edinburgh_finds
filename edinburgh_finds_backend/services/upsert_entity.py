@@ -93,7 +93,7 @@ def upsert_from_schema(
     """Upsert Listing + entity-specific record."""
     
     config = get_entity_config(entity_type)
-    EntityTable = config["table"]
+    entity_table = config["table"]
     listing_fields = config["listing_fields"]
     entity_fields = config["entity_fields"]
 
@@ -164,11 +164,11 @@ def upsert_from_schema(
         
 
         # === Handle Entity ===
-        entity = session.get(EntityTable, listing.listing_id)
+        entity = session.get(entity_table, listing.listing_id)
         
         if entity is None:
             # Create new entity
-            entity = EntityTable(**entity_updates, listing_id=listing.listing_id)
+            entity = entity_table(**entity_updates, listing_id=listing.listing_id)
             _initialize_confidence(entity)
             for field, conf in entity_confidence_updates.items():
                 entity.field_confidence[field] = conf

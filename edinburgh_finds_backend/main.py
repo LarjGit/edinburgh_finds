@@ -35,8 +35,7 @@ def main():
             source_type="manual_file"
         )
 
-        print("\nCOMPLETED (Manual File Mode)")
-        return
+        print("\nCOMPLETED (Manual File Mode): {result}")
 
 if __name__ == "__main__":
     main()

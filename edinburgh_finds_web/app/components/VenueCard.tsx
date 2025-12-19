@@ -1,5 +1,4 @@
 // app/components/VenueCard.tsx
-import Image from 'next/image'
 
 interface EntityConfig {
   summaryField: string

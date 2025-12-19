@@ -32,7 +32,7 @@ def merge_source_info(llm_info: dict, source_type: str) -> dict:
     ]
 
     # Merge + dedupe URLs
-    merged_urls = list({*llm_urls, *system_provenance["sources"]})
+    merged_urls = [{*llm_urls, *system_provenance["sources"]}]
 
     # Merge notes (short + controlled)
     llm_note = llm_info.get("note", "").strip()

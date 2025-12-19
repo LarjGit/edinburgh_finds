@@ -118,6 +118,5 @@ def map_categories(raw_list: list[str]) -> list[str]:
         # direct match
         if key in CANONICAL_CATEGORIES:
             mapped.add(key)
-            continue
 
     return sorted(mapped)

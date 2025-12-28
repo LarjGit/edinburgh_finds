@@ -10,14 +10,10 @@ edinburgh_finds/
 ├── .gitignore, README.md
 └── .github/copilot-instructions.md ← This file
 
-text
-
 ## Backend (`edinburgh_finds_backend/`)
 
 **Core workflow**: AI web scraping → LLM extraction → Postgres storage
 data/[entity_type]s/[slug]/[gather|raw|processed]/ → extraction_pipeline.py → database/models.py
-
-text
 
 **Key patterns:**
 Run extraction
@@ -25,8 +21,6 @@ python main.py --entity-name "David Lloyd Club Edinburgh Shawfair" --entity-type
 
 Database setup
 python scripts/create_tables.py
-
-text
 
 - **Entity types**: venue, retailer, club (add via `core/entity_registry.py`)
 - **Data quality**: Confidence grading A/B/C/X, field_confidence JSON
@@ -39,8 +33,6 @@ text
 **Category-driven Next.js 16 app**:
 Home → /category/[slug] → /listing/[slug]
 
-text
-
 **Key patterns:**
 // Data access
 import { prisma } from '@/lib/prisma'
@@ -52,8 +44,6 @@ include: { venues: true }
 // Category rendering
 const config = categories[categorySlug]
 const summary = listing.venues?.[config.venue.summaryField]
-
-text
 
 - **Server-first**: `'use client'` only for interactivity
 - **Categories**: `app/config/categories.ts` drives UI/data
@@ -71,8 +61,6 @@ cd ../edinburgh_finds_web
 npx prisma generate
 npm run dev
 
-text
-
 **Adding new category**:
 1. Backend: Extract venue → `data/venues/[slug]/`
 2. Web: Add to `app/config/categories.ts`, image to `public/images/categories/`, set `isLive: true`
@@ -81,14 +69,10 @@ text
 backend/database/models.py → python scripts/create_tables.py
 web/prisma/schema.prisma → npx prisma generate
 
-text
-
 ## Common Patterns Across Repos
 
 **Entity lifecycle**:
 Raw text (gather/) → LLM extraction (Pydantic) → Postgres (Listing+Venue) → Next.js server components
-
-text
 
 **Confidence tracking**:
 - Backend: `field_confidence` JSON, update if new ≥ 0.7

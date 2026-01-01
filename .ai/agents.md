@@ -110,6 +110,35 @@ cat edinburgh_finds_backend/requirements.txt
 - Frontend: Reads using Prisma ORM
 - **Risk**: Schema drift - changes to Python models must be manually synced to Prisma schema
 
+### Architecture Review & Future Direction
+
+**⚠️ IMPORTANT:** This architecture has known limitations documented in [`.ai/context/architecture-review.md`](.ai/context/architecture-review.md).
+
+**Current State vs. Planned Improvements:**
+
+| Current Pattern (Avoid Perpetuating) | Planned Improvement | When Suggesting Changes |
+|---------------------------------------|---------------------|-------------------------|
+| Frontend queries database directly | Add API layer (FastAPI) | Prepare for future API: avoid tight coupling to Prisma queries |
+| Load ALL listings (no pagination) | Cursor-based pagination | Always add `take` limits to new queries |
+| No caching layer | Redis/CDN caching via API | Design data structures with cacheability in mind |
+| Manual schema sync (Prisma db pull) | Automated CI/CD validation | Document schema changes clearly for automation |
+| Sequential LLM processing | Queue-based batch processing | Design extraction functions to be stateless/parallelizable |
+| Local file logging | Centralized structured logging | Use proper logging, avoid ad-hoc file writes |
+
+**🎯 When Making Changes:**
+- **Don't** add more direct database queries in frontend components
+- **Do** prepare for API layer by keeping data fetching isolated
+- **Don't** create unbounded queries (always paginate)
+- **Do** add database indexes when adding new query patterns
+- **Don't** hardcode configuration or secrets
+- **Do** externalize configuration for future deployment flexibility
+
+**Read the full architecture review before:**
+- Adding new features that involve data fetching
+- Suggesting performance optimizations
+- Proposing scalability improvements
+- Making security-related changes
+
 ---
 
 ## Technology Stack
@@ -132,7 +161,7 @@ cat edinburgh_finds_backend/requirements.txt
 | SQLModel | 0.0.27 | ORM | Dual Pydantic + SQLAlchemy |
 | Instructor | 1.13.0 | LLM extraction | Structured outputs |
 | Anthropic | 0.75.0 | Claude API | Primary LLM provider |
-| Pydantic | 2.11.10 | Validation | v2 API (breaking changes from v1) |
+| Pydantic | 2.11.10 | Validation | **CRITICAL**: Must stay `<2.12` ([SQLModel incompatibility](https://github.com/fastapi/sqlmodel/issues/1623)) |
 | PostgreSQL | - | Database | Shared with frontend |
 
 ### Supporting Services

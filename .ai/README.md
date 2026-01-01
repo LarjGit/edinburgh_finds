@@ -43,12 +43,11 @@ Contains:
 
 ```
 .ai/
-├── README.md        # This file
-├── agents.md        # Universal AI instructions
-├── claude.md        # Claude Code-specific workflows
-└── context/         # Optional deep-dive documentation (future)
-    ├── architecture.md
-    └── workflows.md
+├── README.md                      # This file
+├── agents.md                      # Universal AI instructions
+├── claude.md                      # Claude Code-specific workflows
+└── context/                       # Deep-dive documentation
+    └── architecture-review.md     # Scalability concerns & planned improvements
 ```
 
 ## Quick Reference
@@ -56,6 +55,8 @@ Contains:
 | Task | File to Read |
 |------|-------------|
 | Understanding the monorepo architecture | `agents.md#repository-overview` |
+| **Understanding planned improvements & what to avoid** | `agents.md#architecture-review--future-direction` |
+| **Reading detailed architecture analysis** | `context/architecture-review.md` |
 | Checking current package versions | `agents.md#technology-stack` |
 | Running development commands | `agents.md#development-commands` |
 | Learning the confidence tracking system | `agents.md#confidence-tracking-system` |
@@ -67,10 +68,11 @@ Contains:
 ## For New AI Instances
 
 **Start here:**
-1. Read [`agents.md`](agents.md) first - understand the architecture
-2. Check package versions in `edinburgh_finds_web/package.json` and `edinburgh_finds_backend/requirements.txt`
-3. If using Claude Code, also read [`claude.md`](claude.md) for tool-specific workflows
-4. **Always search the internet for version-specific documentation** before coding (see agents.md research protocol)
+1. Read [`agents.md`](agents.md) first - understand the architecture **and future direction**
+2. Skim [`context/architecture-review.md`](context/architecture-review.md) - understand what NOT to perpetuate
+3. Check package versions in `edinburgh_finds_web/package.json` and `edinburgh_finds_backend/requirements.txt`
+4. If using Claude Code, also read [`claude.md`](claude.md) for tool-specific workflows
+5. **Always search the internet for version-specific documentation** before coding (see agents.md research protocol)
 
 ## For Humans
 

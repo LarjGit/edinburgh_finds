@@ -557,15 +557,111 @@ Bash: "cd edinburgh_finds_web && npx prisma db pull && npx prisma generate"
 
 ---
 
+## Incremental Improvement Strategy
+
+**Context:** This codebase has known architectural limitations (see [`context/architecture-review.md`](context/architecture-review.md)). When making changes, incrementally move toward planned improvements rather than perpetuating current anti-patterns.
+
+### Before Implementing User Requests
+
+**Ask yourself:**
+1. Does this perpetuate a known anti-pattern? (direct DB queries, unbounded lists, hardcoded config)
+2. Can I implement this in a way that's compatible with planned improvements?
+3. Should I suggest an alternative approach that aligns with the architecture review?
+
+### Examples of Incremental Improvements
+
+**User Request: "Add a new category page"**
+
+❌ **Anti-pattern (perpetuates current issues):**
+```typescript
+// app/category/new-category/page.tsx
+const listings = await prisma.listings.findMany({
+  where: { canonical_categories: { has: 'new-category' } }
+})
+// Loads ALL listings, no pagination, tight coupling to Prisma
+```
+
+✅ **Incremental improvement (prepares for future):**
+```typescript
+// lib/data/listings.ts (isolated data layer)
+export async function getListingsByCategory(
+  category: string,
+  cursor?: string,
+  limit: number = 20  // Always paginate
+) {
+  return prisma.listings.findMany({
+    where: {
+      canonical_categories: { has: category },
+      ...(cursor && { created_at: { lt: new Date(cursor) } })
+    },
+    take: limit + 1,
+    orderBy: { created_at: 'desc' }
+  })
+}
+
+// app/category/new-category/page.tsx (uses isolated function)
+const listings = await getListingsByCategory('new-category')
+// Easy to swap out for API call later
+```
+
+**User Request: "Add logging to extraction pipeline"**
+
+❌ **Anti-pattern:**
+```python
+# Write to local files (doesn't scale horizontally)
+with open(f"logs/{venue_slug}.log", "a") as f:
+    f.write(f"Extracted {venue_name}\n")
+```
+
+✅ **Incremental improvement:**
+```python
+import logging
+logger = logging.getLogger(__name__)
+
+# Structured logging (easy to send to CloudWatch/Datadog later)
+logger.info("Extraction completed", extra={
+    "venue_slug": venue_slug,
+    "venue_name": venue_name,
+    "confidence": avg_confidence
+})
+```
+
+**User Request: "Speed up data extraction"**
+
+❌ **Don't suggest:** "Process more venues in parallel in the same process"
+✅ **Do suggest:** "Make extraction functions stateless to prepare for queue-based processing"
+
+### When to Reference Architecture Review
+
+**Always check [`context/architecture-review.md`](context/architecture-review.md) before:**
+- Suggesting performance optimizations
+- Adding new data fetching patterns
+- Proposing scalability improvements
+- Making changes that might conflict with planned refactors
+
+**Mention relevant sections to the user:**
+```markdown
+I can implement this, but note that the architecture review recommends [specific improvement].
+Would you like me to:
+1. Implement the quick fix now (with tech debt)
+2. Implement it in a way that aligns with the planned [improvement]
+3. Implement the full [improvement] from the architecture review
+```
+
+---
+
 ## Summary
 
 **Key Principles for Claude Code:**
 1. **Research first** (WebSearch for version-specific patterns)
 2. **Read before editing** (understand existing code)
-3. **Follow existing patterns** (match the codebase style)
-4. **Sync schemas religiously** (backend → database → Prisma)
-5. **Track progress** (TodoWrite for complex tasks)
-6. **Verify changes** (build/test after modifications)
-7. **Cite sources** (link to official docs)
+3. **Follow existing patterns** (match the codebase style when no better option exists)
+4. **Align with architecture review** (don't perpetuate anti-patterns)
+5. **Sync schemas religiously** (backend → database → Prisma)
+6. **Track progress** (TodoWrite for complex tasks)
+7. **Verify changes** (build/test after modifications)
+8. **Cite sources** (link to official docs)
+9. **Suggest incremental improvements** (move toward planned architecture)
 
 For architecture and universal patterns, refer back to [`agents.md`](agents.md).
+For detailed scalability/security analysis, see [`context/architecture-review.md`](context/architecture-review.md).
